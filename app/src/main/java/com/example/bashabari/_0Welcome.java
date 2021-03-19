@@ -18,7 +18,9 @@ public class _0Welcome extends AppCompatActivity {
         imgNextArrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(_0Welcome.this,_1Welcome.class);
+                Intent intent = new Intent(_0Welcome.this,
+
+                        _1Welcome.class);
                 startActivity(intent);
             }
         });
