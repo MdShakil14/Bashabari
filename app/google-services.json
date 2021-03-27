@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "204580633182",
+    "project_id": "bashabari-327",
+    "storage_bucket": "bashabari-327.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204580633182:android:966cff50637427ae4e52cf",
+        "android_client_info": {
+          "package_name": "com.example.bashabari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204580633182-4m2nrvh0snkp8ac3i30j73uj8f98fdbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4QXNmsXQwVLdp5_bLzhxBNlwKkxaJNEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204580633182-4m2nrvh0snkp8ac3i30j73uj8f98fdbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

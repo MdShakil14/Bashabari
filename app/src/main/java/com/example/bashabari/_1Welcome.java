@@ -19,7 +19,7 @@ public class _1Welcome extends AppCompatActivity {
         imgNextArrow2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(_1Welcome.this, _2Login.class);
+                Intent intent = new Intent(_1Welcome.this, _3Login.class);
                 startActivity(intent);
             }
         });
