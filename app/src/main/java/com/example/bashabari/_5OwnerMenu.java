@@ -1,6 +1,5 @@
 package com.example.bashabari;
 
-<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -53,18 +52,11 @@ public class _5OwnerMenu extends AppCompatActivity implements NavigationView.OnN
     private NavigationView navigationView;
 
 
-=======
-import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
-
-public class _5OwnerMenu extends AppCompatActivity {
->>>>>>> origin/master
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity__5_owner_menu);
-<<<<<<< HEAD
 
         requestRecyclerView();
 
@@ -118,7 +110,7 @@ public class _5OwnerMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                drawerLayout.openDrawer(Gravity.LEFT);
+                  drawerLayout.openDrawer(Gravity.LEFT);
             }
         });
         see_more_btn.setOnClickListener(new View.OnClickListener() {
@@ -242,7 +234,3 @@ public class _5OwnerMenu extends AppCompatActivity {
         }
     }
 }
-=======
-    }
-}
->>>>>>> origin/master
