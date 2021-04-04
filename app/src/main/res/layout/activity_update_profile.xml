@@ -124,7 +124,7 @@
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/phone_icon"
                     android:drawablePadding="10dp"
-                    android:text="+880 01867780753"/>
+                    android:text="+880 1867780753"/>
 
 
 

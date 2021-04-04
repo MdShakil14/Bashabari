@@ -9,22 +9,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toolbar;
-
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.google.android.material.navigation.NavigationView;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.database.*;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -52,6 +44,10 @@ public class _5OwnerMenu extends AppCompatActivity implements NavigationView.OnN
     private NavigationView navigationView;
 
 
+    private DatabaseReference ownerReference;
+    String _USERNAME,_ADDRESS;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,7 +56,7 @@ public class _5OwnerMenu extends AppCompatActivity implements NavigationView.OnN
 
         requestRecyclerView();
 
-        //setContentFromDatabase();
+
 
 
 
@@ -116,8 +112,8 @@ public class _5OwnerMenu extends AppCompatActivity implements NavigationView.OnN
         see_more_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(_5OwnerMenu.this,_10_More_Requests.class);
-                startActivity(intent);
+//                Intent intent = new Intent(_5OwnerMenu.this,_10_More_Requests.class);
+//                startActivity(intent);
             }
         });
 
@@ -158,11 +154,6 @@ public class _5OwnerMenu extends AppCompatActivity implements NavigationView.OnN
         });
     }
 
-    private void setContentFromDatabase() {
-        nameTitle.setText(readFromFile("111nam111.txt"));
-        addressTitle.setText(readFromFile("111add111.txt"));
-
-    }
 
     private String readFromFile(String File_Name){
         String st = null;
@@ -199,21 +190,21 @@ public class _5OwnerMenu extends AppCompatActivity implements NavigationView.OnN
 
         switch (item.getItemId()){
             case R.id.nav_home:
-                Intent intent = new Intent(_5OwnerMenu.this,_5OwnerMenu.class);
+                Intent intent = new Intent(_5OwnerMenu.this,update_profile.class);
                 startActivity(intent);
                 break;
             case R.id.nav_add_tenant:
                 Intent intent0 = new Intent(_5OwnerMenu.this,_7_Register_Tenants.class);
                 startActivity(intent0);
                 break;
-            case R.id.nav_notice:
-                Intent intent1 = new Intent(_5OwnerMenu.this,_8_Notices.class);
-                startActivity(intent1);
-                break;
-            case R.id.nav_manage_tenants:
-                Intent intent2 = new Intent(_5OwnerMenu.this,_9_Manage_Tenants.class);
-                startActivity(intent2);
-                break;
+//            case R.id.nav_notice:
+//                Intent intent1 = new Intent(_5OwnerMenu.this,_8_Notices.class);
+//                startActivity(intent1);
+//                break;
+//            case R.id.nav_manage_tenants:
+//                Intent intent2 = new Intent(_5OwnerMenu.this,_9_Manage_Tenants.class);
+//                startActivity(intent2);
+//                break;
             case R.id.nav_logout:
                 Intent intent3 = new Intent(_5OwnerMenu.this,_3Login.class);
                 startActivity(intent3);

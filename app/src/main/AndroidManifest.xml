@@ -9,14 +9,14 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name="._4Register">
-        </activity>
-        <activity android:name="._3Login">
-        </activity>
-        <activity android:name="._1Welcome">
-        </activity>
-        <activity android:name="._0Welcome">
-            <intent-filter>
+        <activity android:name=".update_profile"></activity>
+        <activity android:name="._7_Register_Tenants"></activity>
+        <activity android:name="._6_User_menu"></activity>
+        <activity android:name="._5OwnerMenu"></activity>
+        <activity android:name="._4Register"></activity>
+        <activity android:name="._3Login"> </activity>
+        <activity android:name="._1Welcome"> </activity>
+        <activity android:name="._0Welcome"> <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
