@@ -197,14 +197,14 @@ public class _5OwnerMenu extends AppCompatActivity implements NavigationView.OnN
                 Intent intent0 = new Intent(_5OwnerMenu.this,_7_Register_Tenants.class);
                 startActivity(intent0);
                 break;
-//            case R.id.nav_notice:
-//                Intent intent1 = new Intent(_5OwnerMenu.this,_8_Notices.class);
-//                startActivity(intent1);
-//                break;
-//            case R.id.nav_manage_tenants:
-//                Intent intent2 = new Intent(_5OwnerMenu.this,_9_Manage_Tenants.class);
-//                startActivity(intent2);
-//                break;
+            case R.id.nav_notice:
+                Intent intent1 = new Intent(_5OwnerMenu.this,_8_Notices.class);
+                startActivity(intent1);
+                break;
+            case R.id.nav_manage_tenants:
+                Intent intent2 = new Intent(_5OwnerMenu.this,_9_Manage_Tenants.class);
+                startActivity(intent2);
+                break;
             case R.id.nav_logout:
                 Intent intent3 = new Intent(_5OwnerMenu.this,_3Login.class);
                 startActivity(intent3);
