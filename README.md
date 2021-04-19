@@ -5,5 +5,10 @@ Simple application for Homeowner and Tenants.They can communicate with each othe
 
 [Sequence Diagram.pdf](https://github.com/MdShakil14/Bashabari/files/6333842/Sequence.Diagram.pdf)
 
+[Use-Case-Diagram.pdf](https://github.com/MdShakil14/Bashabari/files/6333884/Use-Case-Diagram.pdf)
+
+[System_Requirment_part_1.pdf](https://github.com/MdShakil14/Bashabari/files/6333905/System_Requirment_part_1.pdf)
+
+
 
 
