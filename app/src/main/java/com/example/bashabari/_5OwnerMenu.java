@@ -37,9 +37,6 @@ public class _5OwnerMenu extends AppCompatActivity implements NavigationView.OnN
     private List<requestInfo> requestList;
 
 
-
-
-
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
 
@@ -56,24 +53,23 @@ public class _5OwnerMenu extends AppCompatActivity implements NavigationView.OnN
 
         requestRecyclerView();
 
+        nameTitle = findViewById(R.id.nameTitle_5);
+        addressTitle = findViewById(R.id.addressTitle_5);
+        nameTitle.setText(readFromFile("111nam111.txt").trim());
+        addressTitle.setText(readFromFile("111add111.txt").trim());
 
 
 
 
 
 
-
-
+        ownerReference = FirebaseDatabase.getInstance().getReference("Owner Database");
 
 
         drawerLayout = findViewById(R.id.page_layout_5);
         navigationView = findViewById(R.id.nav_view);
 
-
         navigationView.bringToFront();
-
-
-
         navigationView.setNavigationItemSelectedListener(this);
 
 
@@ -82,12 +78,9 @@ public class _5OwnerMenu extends AppCompatActivity implements NavigationView.OnN
 
 
 
+        recyclerView = findViewById(R.id.notice_recyclerview_5);
 
 
-        recyclerView = findViewById(R.id.request_recyclerview_5);
-
-        nameTitle = findViewById(R.id.nameTitle_5);
-        addressTitle = findViewById(R.id.addressTitle_5);
 
         see_more_btn = findViewById(R.id.see_more_btn_5);
 
@@ -106,14 +99,14 @@ public class _5OwnerMenu extends AppCompatActivity implements NavigationView.OnN
             @Override
             public void onClick(View v) {
 
-                  drawerLayout.openDrawer(Gravity.LEFT);
+                drawerLayout.openDrawer(Gravity.LEFT);
             }
         });
         see_more_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(_5OwnerMenu.this,_10_More_Requests.class);
-//                startActivity(intent);
+                Intent intent = new Intent(_5OwnerMenu.this,_10_More_Requests.class);
+                startActivity(intent);
             }
         });
 
@@ -123,7 +116,7 @@ public class _5OwnerMenu extends AppCompatActivity implements NavigationView.OnN
     }
 
     private void requestRecyclerView() {
-        recyclerView = findViewById(R.id.request_recyclerview_5);
+        recyclerView = findViewById(R.id.notice_recyclerview_5);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         requestList = new ArrayList<>();
@@ -209,6 +202,7 @@ public class _5OwnerMenu extends AppCompatActivity implements NavigationView.OnN
                 Intent intent3 = new Intent(_5OwnerMenu.this,_3Login.class);
                 startActivity(intent3);
                 break;
+
         }
 
 
