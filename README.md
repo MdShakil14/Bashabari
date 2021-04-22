@@ -14,3 +14,6 @@ Simple application for Homeowner and Tenants.They can communicate with each othe
 [Testing Plan.pdf](https://github.com/MdShakil14/Bashabari/files/6345005/Testing.Plan.pdf)
 
 [System Design Tenants.pdf](https://github.com/MdShakil14/Bashabari/files/6351920/System.Design.Tenants.pdf)
+
+[Entity-Relationship-Diagram and DataBase Design.pdf](https://github.com/MdShakil14/Bashabari/files/6355413/Entity-Relationship-Diagram.and.DataBase.Design.pdf)
+
