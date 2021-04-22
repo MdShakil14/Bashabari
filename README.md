@@ -17,3 +17,6 @@ Simple application for Homeowner and Tenants.They can communicate with each othe
 
 [Entity-Relationship-Diagram and DataBase Design.pdf](https://github.com/MdShakil14/Bashabari/files/6355413/Entity-Relationship-Diagram.and.DataBase.Design.pdf)
 
+[IMPLEMENTATION.docx](https://github.com/MdShakil14/Bashabari/files/6360017/IMPLEMENTATION.docx)
+
+[RESULTS AND DISCUSSIONS.docx](https://github.com/MdShakil14/Bashabari/files/6360018/RESULTS.AND.DISCUSSIONS.docx)
