@@ -20,3 +20,10 @@ Simple application for Homeowner and Tenants.They can communicate with each othe
 [IMPLEMENTATION.docx](https://github.com/MdShakil14/Bashabari/files/6360017/IMPLEMENTATION.docx)
 
 [RESULTS AND DISCUSSIONS.docx](https://github.com/MdShakil14/Bashabari/files/6360018/RESULTS.AND.DISCUSSIONS.docx)
+
+[System Design.docx](https://github.com/MdShakil14/Bashabari/files/6363219/System.Design.docx)
+
+[System Requirement 2.docx](https://github.com/MdShakil14/Bashabari/files/6363223/System.Requirement.2.docx)
+
+[BashaBari Class Diagram.pdf](https://github.com/MdShakil14/Bashabari/files/6363227/BashaBari.Class.Diagram.pdf)
+
