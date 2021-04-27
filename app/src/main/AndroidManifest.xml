@@ -9,18 +9,18 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name="._17RecivedMessage">
-        </activity>
-        <activity android:name="._16_Nagad">
-        </activity>
-        <activity android:name="._15_Bkash">
-        </activity>
-        <activity android:name="._14_PayBill">
-        </activity>
-        <activity android:name="._13SentMessage">
-        </activity>
-        <activity android:name="._10_More_Requests">
-        </activity>
+        <activity android:name="._21_Tenant_list_bill"></activity>
+        <activity android:name="._20_Bill_owner"></activity>
+        <activity android:name="._19_Visa"></activity>
+        <activity android:name="._18_Rocket"></activity>
+        <activity android:name="._17RecivedMessage"></activity>
+        <activity android:name="._16_Nagad">        </activity>
+        <activity android:name="._15_Bkash">        </activity>
+        <activity android:name="._14_PayBill">        </activity>
+        <activity android:name="._13SentMessage">        </activity>
+        <activity android:name="._12_Requests"></activity>
+        <activity android:name="._11_More_Notices"></activity>
+        <activity android:name="._10_More_Requests">        </activity>
         <activity android:name=".update_profile"/>
         <activity android:name="._9_Manage_Tenants"/>
         <activity android:name="._8_Notices"/>
